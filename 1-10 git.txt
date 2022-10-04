@@ -1,4 +1,4 @@
-GIT (version control system)
+.GIT (version control system)
 -----------------------------
 
 1.what is version control system.
