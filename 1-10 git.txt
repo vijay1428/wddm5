@@ -1,0 +1,193 @@
+GIT (version control system)
+-----------------------------
+
+1.what is version control system.
+2.types of version control system.
+3.git
+
+1.what is version control system.:-
+-----------------------------------------
+it is the one type of software that helps the developers to work together.
+by using this we can control or maintain the version.
+
+whatsapp :- chats calls:- the whatsapp is working perfectly  
+            status :- adding this feature whatsapp is not working 
+
+
+storing our versions of software by using version control system we can easily rollback (switch to old update) 
+
+1.once that new update working fine then will deploy to production server 
+
+1.Traditional models for developing the software :- water fall,spiral models.-----1year or 2 year ----
+
+
+signup
+login
+search
+cart
+buynow
+choose the delivery options  
+
+Now a days the software ind following AGILE ---Dployment process will speed 
+
+signup -dev1
+login --dev2
+search --dev3 
+
+
+
+
+Functions of version control system:-
+----------------------------------------------
+1.Allows developers to work simultaneously.
+2.does not allow overwriting each others changes.
+3.maintain a history of every version 
+
+
+Types of version control system:-
+----------------------------------------
+1.file system(local version control system)
+2.cvcs(centralized version control system)
+3.DVCS(decentralized version control system)
+
+1.file system:-
+--------------------------------
+developers will have there individual systems they will work in there systems --comipling and they will make this code as executable.
+
+Drawback :-
+----------------
+1.if anything happens to that specific system then completely source code will distory we will be not having the other cpoies .
+
+
+2.centralized version control system:-
+--------------------------------------------
+dev1 ------------------push
+                                                   Central repositroy (remote repo)---ANything happens to this the source code will
+                                                                                       destoryed will be not having any copy.
+dev2 -------------------push
+
+dev3 ---------------------push 
+
+(they are not having any copy)
+
+
+
+drawback of cvcs :-
+-------------------------
+1.ANything happens to this the source code then it is destoryed will be not having any copy.
+
+GIT:-----
+---------------------------
+Git was developed by linus torvalds in the year of 2005
+
+Git Terminologies:-
+--------------------------
+1.Repository :-In comman Directory where we are stroing the files ,folders.
+
+2.Remote :- central server, from remote we will clone the repo.
+
+3.clone :-It is action of copying a repo from remote to local
+
+4.fork :- creating the copy of repository.
+
+5.Fetch :- what ever the changes done in the remote repo we can get it in local system.
+
+6.HEAD :- it is recent commit (refernce)
+
+7.commit :- what ever the changes we are doing we will store it as a copy (version) by using commits only we will adding to history.
+
+8.Branch :- by using this our developers can easily work together..
+
+10.Merge :- combining the branches .
+
+11.pull :- downloading the changes from remote repository.
+
+12.push :- pushing (adding) the local changes to remote repository.
+
+13.tag :- tag we are going to add to our commits .
+
+
+
+
+
+Working with git :-
+--------------------------
+working  copy --              staging area ------------------commits ----push to remote repository 
+(where we working 
+system)
+
+
+1.git init :- To create the local repository. (when you starting with new project from local this is the first command).
+
+      syn :- git init    ---it will convert execting directory into repositroy.
+             git init <repo-name> -----It will create the repo with the given name.
+
+2.git add :- to add the files into staging area.
+
+        syn :- git add <file-name>
+
+3.git status :- top check the status of the repo/branch.
+
+4.git commit -m "message" :- to create a commits.
+
+      syn :- git commit -m "msg"
+
+5.git config :- to add user information to system ,by this our repo will get to know who is commiting.
+
+   syn :- git config --global user.email "mail id"
+     
+          git config --global user.name "user-name"
+
+6.git log :- it will show the history of the commits.
+
+    syn :- git log
+
+7.git diff :- To check the differnce between the older version and new version.
+
+  syn :- git diff
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

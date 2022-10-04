@@ -1,0 +1,137 @@
+Revision:--
+-----------------------
+types of version control system
+
+1.local version control system.
+2.centrailized version control system.
+3.Decentranlized version control system.
+
+Stages :-
+----------------------------
+1.working copy .
+
+touch test
+
+git add ----to add the file to staging area
+2.staging area.
+
+once the file is added to staging area
+we are going to commit then we will push to remote repo.
+3.remote repostory.
+commands :-
+----------------------------------
+1.git init
+
+2.git status
+
+3.git diff 
+
+4.git add
+
+5.git commit -m "msg"
+
+6.git config 
+
+7.git log ---histroy 
+
+Github :-
+-----------------
+Github is the web-based software
+
+developers are going add the files and they can track the changes (store the data)
+
+git-hub is having GUI --- Graphical user interface by using this there only we can manage the files.
+
+1 .
+---------------
+Github is social media for developers 
+
+
+local we have created repo with the name of git demo ---
+
+remote repo we have created one repo with wddm5-m6------our manager or team lead is going create the repository 
+
+
+
+How to add the local repo to remote:-
+----------------------------------------
+1.git remote add origin <url>
+
+  origin :- is the name which we have given to our url
+
+2.git remote -v :- to check whether the remote repo is connected to local repo  or not 
+
+
+How to push local changes to remote:- 
+-----------------------------------------------
+1.git push origin <branch-name>
+
+Working with branches:-
+----------------------------------
+1. git branch <branch-name> :- to create the braches.
+
+2. git branch :- to list the branches .
+
+3. git checkout <branch-name> :- To jump/change the branch.
+
+4.git merge <branch-name> :- we are going merge the branch 
+
+ *) when we merge the commits are going to add in that specific branch .
+
+
+Instagram :- 
+
+signup  -dev1       adding all these changes to master we are going merge 
+login -dev2
+upload -dev3
+message -dev4
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
